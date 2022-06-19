@@ -1,6 +1,6 @@
 .ltop{
     position: absolute;
-    left: 20px;top: 20px;
+    left: 10px;top: 20px;
     font-size: 20px;
 }
 .ltop:hover{
@@ -16,7 +16,7 @@ a:-webkit-any-link:hover{
 
 .rbot{
 position: absolute;
-right: 20px;bottom: 20px;
+right: 10px;bottom: 20px;
 font-size: 20px;
 }
 
@@ -56,7 +56,7 @@ h1{
 }
 .my_img img{   
     z-index: 10;
-    width:  7cm;
+    width:  7.3cm;
        height:12cm;
        border: 2px solid black;
        filter: gray; 
