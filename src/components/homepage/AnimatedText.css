@@ -1,0 +1,42 @@
+.animatedTextContainer{
+
+    cursor:pointer;
+    position:relative;
+    --maskX:0;
+    --maskY:0;
+}
+.animatedTextContent{
+    cursor:pointer;
+    color:#000000;
+    font-size:120px;
+    font-weight: 600;
+    font-family: "Graduate",cursive;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    text-shadow: 5px 3px 8px rgba(0,0,0,0.2);
+    margin:0;
+
+    background: -webkit-linear-gradient(white, #38495a);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.animatedTextContentClone{
+cursor: pointer;
+    font-size: 120px;
+    font-weight: 600;
+    font-family: "Graduate", cursive;
+    line-height: 1.1;
+    letter-spacing: 5px;
+    text-shadow: 5px 3px 8px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    position:absolute;
+    left: 0;
+    top: 0;
+    color:#030303;
+    transition: all 0.4s ease-out;
+  clip-path: polygon(
+    0 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * 0.4%) 0,
+    calc(var(--maskX) * 1% + (var(--maskY) - 50) * -0.4%) 100%,
+    0 100%)
+}

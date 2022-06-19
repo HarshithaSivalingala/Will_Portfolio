@@ -1,0 +1,146 @@
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  
+  .textzone{
+    position: relative;
+    display: flex;align-items: center;justify-content: center;
+    color: white;
+    margin-bottom: 40px;
+    text-decoration-color:#484848;
+  }
+  
+.left{
+  width:80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+
+  h2{
+    font-size: xx-large;
+  }
+  ul{
+    padding:0;
+    margin: 0;
+    
+    li{
+      padding:0;
+      margin: 0;
+      list-style: none;
+      margin-bottom: 10px;
+      overflow:hidden;
+      display: block;
+      position: relative;
+      animation: fadeInUp 2s 2s;
+      animation-fill-mode:forwards;
+      clear:both;
+    }
+    li.half{
+      width:49%;
+      margin-left: 2%;
+      float: left;
+      clear: none;
+      
+      &:first-child{
+        margin-left: 0;
+      }
+    }
+  }
+  input[type='text'],
+  input[type='email'] {
+    width: 100%;
+    opacity:0.5;
+    background: opacity($color: #D3D3D3);
+    height: 50px;
+    font-size: 16px;
+    color:#000000;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 100%;
+    opacity:0.5;
+    background: opacity($color: #D3D3D3);
+    height: 50px ;
+    font-size: 16px;
+    color:#000000;
+    padding: 20px;
+    min-height: 150px;
+    box-sizing:border-box;
+  }
+
+   .flat-button{
+     color: #D3D3D3;
+     background: 0 0;
+     font: 11px;
+     letter-spacing:3px;
+     padding: 8px 10px;
+     text-decoration: none;
+     border: 1px solid #D3D3D3;
+     float:right;
+     border-radius: 4px;
+     cursor:pointer;
+   }
+   .flat-button:hover{
+    color:black;
+    background-color: #D3D3D3;
+    
+   }
+  
+}
+ .right{
+   position: absolute;
+   background-color: #000;
+   top: 19vh;
+   right:38%;
+   z-index:999999;
+   width: 230px;
+   padding:10px;
+   color:#fff;
+   font-family: 'Helvetica';
+   font-size: 17px;
+   font-weight: 300;
+   animation: fadeIn 1s 1.5s;
+   animation-fill-mode: forwards;
+  text-align: center;
+
+   span{
+     font-size:16px;
+     display:block;
+     padding-top:20px;
+     color:#ffd700;
+     margin:0%;
+   }
+ }
+
+ .map_wrap{
+   margin: 20px;
+   float:right;
+   width:55vw;
+   height: 75vh;
+
+   *{
+     display: flex;
+     border: none;
+   }
+
+   .leaflet-container{
+     height: 100%;width: 100%;
+   }
+
+   .leaflet-control-zoom{
+     *{
+       display: flex;align-items: center;justify-content: center;
+       color:#000
+     }
+   }
+
+   .leaflet-control-attribution {
+     display: none;
+   }
+   }
+}
+

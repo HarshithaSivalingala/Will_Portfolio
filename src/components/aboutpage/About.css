@@ -1,0 +1,252 @@
+.ltop{
+    position: absolute;
+    left: 20px;top: 20px;
+    font-size: 20px;
+}
+.ltop:hover{
+    letter-spacing: 2px;
+}
+a:-webkit-any-link{
+    color: beige;
+    text-decoration: none;
+}
+a:-webkit-any-link:hover{
+    color:#B0DFE5;
+}
+
+.rbot{
+position: absolute;
+right: 20px;bottom: 20px;
+font-size: 20px;
+}
+
+.rbot:hover{
+    letter-spacing: 2px;
+}
+
+.about
+{
+    height: 100vh;width: 100vw;
+    display: flex;align-items: center;justify-content: center;
+}
+
+.about *{
+    position: relative;
+}
+
+h1{
+    font-size: 30px;
+    
+}
+.body{
+    height: 90%;width: 90%;
+    display:flex;
+}
+.left{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
+}
+.my_img
+{ 
+       width:  40vw;
+       height:50vh;
+       display: flex;align-items: center;justify-content: center;
+}
+.my_img img{   
+    z-index: 10;
+    width:  8.cm;
+       height:12cm;
+       border: 2px solid black;
+       filter: gray; 
+      -webkit-transition: all .8s ease-in-out;  
+      cursor: pointer;
+}
+
+.outlines{
+    display: flex;align-items: center;justify-content: center;
+    position: fixed;
+}
+
+
+.outline1{
+    position: fixed;
+    width: 7cm;
+    height: 12cm;
+    border: 1px solid white;
+    margin-bottom: 10vh;
+    margin-right: 16vh;
+    transition-duration: 1s;
+}
+.outline2 {
+    width: 7cm;
+    height: 12cm;
+    border: 1px solid white;
+    transition-duration: 1s;
+    margin-top: 10vh;
+    margin-left: 16vh;
+    position: fixed;
+}
+img:hover + .outlines .outline1{
+    margin-left: 8vh;
+    margin-top: 4vh;
+}
+img:hover + .outlines .outline2{
+    margin-left: 8vh;
+    margin-top: 6vh;
+}
+.textzone1{
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  .textzone_e{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+.my_info{
+    width: 80%;
+    height: 80%;
+    font-size:small;
+    font-family: 'Roboto', sans-serif;
+    font-weight:1000;
+    display: flex;
+    align-items: flex-start;justify-content: flex-start;
+    flex-direction: column; 
+    color: white;
+    text-align: justify;
+}
+
+.info_data{
+    display:flex;
+    flex-direction: column;
+    font-size:17px;
+    font-family:'Roboto', sans-serif;
+    font-weight:100;
+}
+.name{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size:17px;
+    font-family:'Roboto', sans-serif;
+    font-weight:100;
+}
+.i_name{
+    margin-left: 5px;
+    font-family:'Roboto', sans-serif;
+    font-size:20px;
+    color:#B0DFE5
+
+}
+.exp-data{
+    display:flex;
+    flex-direction: column;
+    justify-content: wrap;
+}
+.exp_dat{
+    display: flex;align-items: center;justify-content: center;
+    justify-content: wrap;
+}
+
+.round{
+    width: 8px;height: 6px;background-color: white;border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 19px;
+}
+.exp_dat p{
+    font-size:17px;
+    font-family:'Roboto', sans-serif;
+    font-weight:100;
+    text-align: left;
+    margin:0%;
+
+    
+}
+
+.r_button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: black;
+    background-color:#CCCCFF;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #545AA7;
+    transition: ease-in-out 0.7s;
+    outline: none;
+    font-weight: 100;
+    font-size: 0.4cm;
+}
+
+.r_button:hover {
+    box-shadow: inset 300px 0 0 0 #545AA7;
+    cursor: pointer;
+    color: white;
+}
+
+.s_button button {
+    width: 90px;
+    height: 35px;
+    border: none;
+    color: black;
+    background-color: #CCCCFF;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #545AA7;
+    transition: ease-in-out 0.7s;
+    outline: none;
+    font-size: 0.4cm;
+
+}
+
+.s_button button:hover {
+    box-shadow: inset 300px 0 0 0 #545AA7 ;
+    cursor: pointer;
+    color: white;
+}
+
+.kmore_button button{
+    width:90px;
+    height:35px;
+    border:none;
+    color: black;
+    background-color:#CCCCFF ;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 0 #545AA7 ;
+    transition: ease-in-out 0.7s;
+    outline: none;
+    font-size: 0.4cm;
+}
+.kmore_button button:hover{
+    box-shadow: inset 300px 0 0 0 #545AA7;
+    cursor: pointer;
+    color: white;
+}
+
+.abt_buttons{
+    margin-top:10px;
+    display: flex;align-items: center;justify-content: space-between;
+    width: 200px;
+}
+
