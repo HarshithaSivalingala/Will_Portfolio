@@ -36,7 +36,7 @@
       text-orientation: mixed;
       position: absolute;
       right: 22px;
-      bottom:7.2vh;
+      bottom:4.5vh;
     }
     .Etext p :hover{
       background-color:#00FFFF;
@@ -46,8 +46,8 @@
     }
       
     .button_main{
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
       border-radius: 100px;
       border-color:#FFF;
       cursor: pointer;
