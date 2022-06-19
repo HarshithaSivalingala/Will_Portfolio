@@ -56,7 +56,7 @@ h1{
 }
 .my_img img{   
     z-index: 10;
-    width:  8.cm;
+    width:  7cm;
        height:12cm;
        border: 2px solid black;
        filter: gray; 
