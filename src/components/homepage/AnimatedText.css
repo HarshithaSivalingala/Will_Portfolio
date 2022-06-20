@@ -7,7 +7,7 @@
 .animatedTextContent{
     cursor:pointer;
     color:#000000;
-    font-size:100px;
+    font-size:110px;
     font-weight: 600;
     font-family: "Graduate",cursive;
     line-height: 1.1;
@@ -21,7 +21,7 @@
 }
 .animatedTextContentClone{
 cursor: pointer;
-    font-size: 100px;
+    font-size: 110px;
     font-weight: 600;
     font-family: "Graduate", cursive;
     line-height: 1.1;
