@@ -18,6 +18,9 @@ const Home = () => {
     </div>
 
 <div className ="Home">
+    <div className="mainimg">
+      <img alt="img" src="resources/my_img2.jpg" />
+  </div>
     <AnimatedText
     // overlayColor="#add8e6"
     overlayColor="#b0e0e6"
@@ -29,9 +32,10 @@ const Home = () => {
     <div className="Etext">
    <p><Link to="/contact">{mail}</Link></p>
      </div>
+    <Sicons/>
    <button className="button_main" onClick={() => navigate("/about")}> {button} </button>
   
-  <Sicons/>
+  
   
 </div>
     </>
