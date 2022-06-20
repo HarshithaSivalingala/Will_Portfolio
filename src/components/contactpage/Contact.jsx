@@ -44,7 +44,7 @@ const sendEmail = (e) => {
       <div className="rbot">
         <Link to ="/">{h}</Link>
       </div>
-      <div className="left">
+      <div className="contact_left">
         
   <div className="textzone">
        <AnimatedLetters
@@ -73,7 +73,7 @@ const sendEmail = (e) => {
         </form>
       </div>
 
-<div className='right'>
+<div className='contact_right'>
          India,
          <br/>
         Hyderabad,Telangana
