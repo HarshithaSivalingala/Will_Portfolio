@@ -116,17 +116,22 @@ width: 40px;
 
   .qua{
     display: grid;
-     margin-left: 30px;
-      grid-template-rows: 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      position: relative;
-      text-align: center;
-      top: 3vh;
-      grid-row-gap:50px;
-      column-gap: 20px;
-
-   
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    text-align: center;
+    top: 6vh;
+    grid-row-gap: 50px;
+    margin-left: 40px;
+    column-gap: 20px;
   }
+@media screen and (max-height:600px) {
+  .qua {
+    top: 3vh;
+    grid-row-gap: 50px;
+    margin-left: 30px;
+  }
+}
     .qua :nth-child(1) {
       grid-area: 1/1 / span 1 / span 1;
     }
