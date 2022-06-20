@@ -31,12 +31,12 @@
       background:white;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-      font-size:20px;
+      font-size:18px;
       writing-mode: vertical-rl;
       text-orientation: mixed;
       position: absolute;
       right: 22px;
-      bottom:4.5vh;
+      bottom:5vh;
     }
     .Etext p :hover{
       background-color:#00FFFF;
