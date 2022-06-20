@@ -128,7 +128,7 @@ width: 40px;
 @media screen and (max-height:600px) {
   .qua {
     top: 3vh;
-    grid-row-gap: 50px;
+    grid-row-gap: 55px;
     margin-left: 30px;
   }
 }
@@ -185,4 +185,68 @@ border-radius: 50%;
 
 h2{
   padding: 0;margin: 0;
+}
+
+
+@media only screen and (max-width : 760px) {
+  
+  .back_button {
+    margin: 8px;
+    z-index: 99999;
+  }
+  .skills_title {
+      left: 0;right: 0;
+    }
+  
+    .qua_title {
+      position: relative;
+      left: 0;right: 0;top: 0;bottom: 0;
+      margin-top: 25px;
+
+    }
+
+  .tech {
+      width: 90vw;
+      height: 30vh;
+    }
+
+  .data {
+    height: 93px;width: 220px;
+  }
+
+  .qualifications {
+      width: 60%;
+      height: 60%;
+    }
+
+    .outer{
+      display: none;
+    }
+
+  .qua {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      position: relative;
+      text-align: center;
+      margin: 0;
+      row-gap: 30px;
+      column-gap: 0;
+      margin-bottom: 30px;
+      top: 0;
+    }
+
+
+        .qua :nth-child(1) {
+          grid-area: 1/1 / span 1 / span 1;
+        }
+    
+        .qua :nth-child(2) {
+          grid-area: 2/1 / span 1 / span 1;
+        }
+    
+        .qua :nth-child(3) {
+          grid-area: 3/1 / span 1 / span 1;
+        }
+
 }
