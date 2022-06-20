@@ -23,7 +23,7 @@ width: 40px;
 .skills_title{
   z-index: 999;
     position: fixed;
-    top: -17px;
+    top: -20px;
     font-size: xx-large;
     left: 47%;
     display: flex;
@@ -121,8 +121,8 @@ width: 40px;
       grid-template-columns: 1fr 1fr 1fr;
       position: relative;
       text-align: center;
-      top: 4vh;
-      grid-row-gap:45px;
+      top: 3vh;
+      grid-row-gap:50px;
       column-gap: 20px;
 
    
