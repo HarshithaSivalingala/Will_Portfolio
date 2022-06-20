@@ -2,6 +2,7 @@
     position: absolute;
     left: 10px;top: 20px;
     font-size: 20px;
+    z-index: 9999999;
 }
 .ltop:hover{
     letter-spacing: 2px;
@@ -18,6 +19,7 @@ a:-webkit-any-link:hover{
 position: absolute;
 right: 10px;bottom: 20px;
 font-size: 20px;
+z-index: 9999999;
 }
 
 .rbot:hover{
@@ -249,4 +251,8 @@ img:hover {
     display: flex;align-items: center;justify-content: space-between;
     width: 200px;
 }
-
+@media only screen and (max-width : 760px) {
+.left{
+    display: none;
+}
+}
