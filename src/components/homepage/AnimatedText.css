@@ -39,3 +39,15 @@ cursor: pointer;
     calc(var(--maskX) * 1% + (var(--maskY) - 50) * -0.4%) 100%,
     0 100%)
 }
+
+@media only screen and (max-width : 760px) {
+
+        .animatedTextContent {
+            font-size: 40px;
+        }
+        
+        .animatedTextContentClone {
+            display: none;
+        }
+    
+}
