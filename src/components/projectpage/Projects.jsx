@@ -31,7 +31,7 @@ function Projects() {
       img: "resources/pose_estimation.png",
       title: "Pose Estimation",
       ved: "resources/videos/pose_estimation.mp4",
-      desc: "Devised a deep neural network model to superimpose the pose estimation on the real-time feed.Human pose estimation is defined as localization of human joints in vedio or images.Developed a fitness application using human pose estimation by capturing movement of the user while one exercise and keeps track of the count.",
+      desc: "Devised a deep neural network model to superimpose the pose estimation on the real-time feed.Human pose estimation is defined as localization of human joints in video or images.Developed a fitness application using human pose estimation by capturing movement of the user while one exercise and keeps track of the count.",
       tec: ["PyCharm", "MediaPipe", "Library: OpenCV"],
       git: "https://gitlab.com/balu_022/pose_estimation",
     },
