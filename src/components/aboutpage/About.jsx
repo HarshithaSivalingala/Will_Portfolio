@@ -23,10 +23,10 @@ function About() {
         <div className="body">
           <div className="left">
             <div className="my_img">
-              <img src="resources/my_img2.jpg" alt=""/>
+              <img src="resources/my_img3.jpg" alt="" />
               <div className="outlines">
-              <div className="outline1"></div>
-              <div className="outline2"></div>
+                <div className="outline1"></div>
+                <div className="outline2"></div>
               </div>
             </div>
           </div>
@@ -43,15 +43,22 @@ function About() {
                   <p>Hello! I am</p>
                   <div className="i_name">Harshitha</div>
                 </div>
-                <p >
+                <p>
                   I am a software engineer, passionate about building excellent
                   software. Working hands on problem solving using data
                   structures and web-development.
                 </p>
               </div>
 
-              <form method="get" action="resources/resume.pdf" target="_blank" title="harshitha_resume">
-                <button className="r_button" type="submit">Resume</button>
+              <form
+                method="get"
+                action="resources/resume.pdf"
+                target="_blank"
+                title="harshitha_resume"
+              >
+                <button className="r_button" type="submit">
+                  Resume
+                </button>
               </form>
 
               <div className="textzone_e">
@@ -76,15 +83,15 @@ function About() {
                 <div className="exp_dat">
                   <div className="round"></div>
                   <p>
-                  Interned as a full stack developer for a period of 2 months in
-                  Study Owl Education Pvt Ltd.
+                    Interned as a full stack developer for a period of 2 months
+                    in Study Owl Education Pvt Ltd.
                   </p>
                 </div>
                 <div className="exp_dat">
                   <div className="round"></div>
                   <p>
-                Completed Google Cloud Program associated with qwiklabs and
-                  earned skill badges.
+                    Completed Google Cloud Program associated with qwiklabs and
+                    earned skill badges.
                   </p>
                 </div>
               </div>

@@ -43,7 +43,15 @@ function Projects() {
       tec: ["React", "Redux", "Firebase"],
       git: "https://gitlab.com/sritulasi/konnekt",
     },
-    
+    {
+      id: 4,
+      img: "resources/E-commerce.png",
+      title: "SchoolShop",
+      ved: "resources/videos/E-commerce.mp4",
+      desc: " SchoolShop is a full-stack E-commerce application.This application is fully functional with different views for user and admin.",
+      tec: ["React", "Redux", "Mongodb", "Node"],
+      git: "https://github.com/HarshithaSivalingala/ProShop.git",
+    },
   ];
 
   const a = "<About";
@@ -74,12 +82,12 @@ function Projects() {
             {data.map((d) => (
               <div className="card">
                 <div className="center">
-                  <img src={d.img} alt=""/>
+                  <img src={d.img} alt="" />
                 </div>
                 <div className="tit">{d.title}</div>
                 <div className="bottom">
                   <div className="items">
-                    <div >
+                    <div>
                       <button
                         className="btn-primary"
                         onClick={() => {
