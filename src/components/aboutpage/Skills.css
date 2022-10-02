@@ -21,19 +21,19 @@ width: 40px;
 }
 
 .skills_title{
-  position: fixed;
-  top: 2px;
-  font-size: xx-large;
-  color: white;
-  display:flex;
-  justify-content: center;
+  z-index: 999;
+    position: fixed;
+    top: -20px;
+    font-size: xx-large;
+    left: 47%;
+    display: flex;
+    justify-content: center;
 }
 .qua_title {
   z-index: 999;
   position: fixed;
-  bottom: 34vh;
+  bottom: 38vh;
   font-size: xx-large;
-  color: white;
   left: 43%;
   display:flex;
   justify-content: center;
@@ -41,7 +41,7 @@ width: 40px;
 .tech{
   width: 90vw;
   height: 50vh;
-  margin-top: 50px;
+  margin-top: 20px;
   display: flex;align-items: center;justify-content: center;
   flex-wrap: wrap;
 }
@@ -111,21 +111,27 @@ width: 40px;
 
   .qualifications{
     width: 70%;
-    height: 60vh;
+    height: 100%;
   }
 
   .qua{
     display: grid;
-     margin-left: 50px;
-      grid-template-rows: 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-      position: relative;
-      text-align: center;
-      top: 4.6vh;
-      grid-row-gap:50px;
-
-   
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+    text-align: center;
+    top: 6vh;
+    grid-row-gap: 50px;
+    margin-left: 40px;
+    column-gap: 20px;
   }
+@media screen and (max-height:600px) {
+  .qua {
+    top: 3vh;
+    grid-row-gap: 55px;
+    margin-left: 30px;
+  }
+}
     .qua :nth-child(1) {
       grid-area: 1/1 / span 1 / span 1;
     }
@@ -143,7 +149,7 @@ width: 40px;
   display: flex;
     align-items: center;
     justify-content: center;
-    height: 45%;width: 68%;
+    height: 47%;width: 70%;
     position: fixed;
     flex-direction: column;
 }
@@ -179,4 +185,68 @@ border-radius: 50%;
 
 h2{
   padding: 0;margin: 0;
+}
+
+
+@media only screen and (max-width : 760px) {
+  
+  .back_button {
+    margin: 8px;
+    z-index: 99999;
+  }
+  .skills_title {
+      left: 0;right: 0;
+    }
+  
+    .qua_title {
+      position: relative;
+      left: 0;right: 0;top: 0;bottom: 0;
+      margin-top: 25px;
+
+    }
+
+  .tech {
+      width: 90vw;
+      height: 30vh;
+    }
+
+  .data {
+    height: 93px;width: 220px;
+  }
+
+  .qualifications {
+      width: 60%;
+      height: 60%;
+    }
+
+    .outer{
+      display: none;
+    }
+
+  .qua {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      position: relative;
+      text-align: center;
+      margin: 0;
+      row-gap: 30px;
+      column-gap: 0;
+      margin-bottom: 30px;
+      top: 0;
+    }
+
+
+        .qua :nth-child(1) {
+          grid-area: 1/1 / span 1 / span 1;
+        }
+    
+        .qua :nth-child(2) {
+          grid-area: 2/1 / span 1 / span 1;
+        }
+    
+        .qua :nth-child(3) {
+          grid-area: 3/1 / span 1 / span 1;
+        }
+
 }

@@ -1,7 +1,8 @@
 .ltop{
     position: absolute;
-    left: 20px;top: 20px;
+    left: 10px;top: 20px;
     font-size: 20px;
+    z-index: 9999999;
 }
 .ltop:hover{
     letter-spacing: 2px;
@@ -16,8 +17,9 @@ a:-webkit-any-link:hover{
 
 .rbot{
 position: absolute;
-right: 20px;bottom: 20px;
+right: 10px;bottom: 20px;
 font-size: 20px;
+z-index: 9999999;
 }
 
 .rbot:hover{
@@ -56,7 +58,7 @@ h1{
 }
 .my_img img{   
     z-index: 10;
-    width:  8.cm;
+    width:  7.3cm;
        height:12cm;
        border: 2px solid black;
        filter: gray; 
@@ -249,4 +251,8 @@ img:hover {
     display: flex;align-items: center;justify-content: space-between;
     width: 200px;
 }
-
+@media only screen and (max-width : 760px) {
+.left{
+    display: none;
+}
+}

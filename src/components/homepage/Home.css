@@ -6,6 +6,11 @@
     min-height:100vh;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     padding:0 10px;
+    overflow: hidden;
+  }
+
+.mainimg{
+    display: none;
   }
 
   .line1{
@@ -31,12 +36,12 @@
       background:white;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-      font-size:20px;
+      font-size:18px;
       writing-mode: vertical-rl;
       text-orientation: mixed;
       position: absolute;
-      right: 22px;
-      bottom:7.6vh;
+      right: 25px;
+      bottom:10vh;
     }
     .Etext p :hover{
       background-color:#00FFFF;
@@ -46,8 +51,8 @@
     }
       
     .button_main{
-      width: 80px;
-      height: 80px;
+      width: 70px;
+      height: 70px;
       border-radius: 100px;
       border-color:#FFF;
       cursor: pointer;
@@ -69,6 +74,45 @@
       width: 100vw;
       position: fixed;
     }
+
+@media only screen and (max-width : 760px) {
+          .Home{
+            display: flex;align-items: center;justify-content: space-evenly;
+            flex-direction: column;
+          }
+          .mainimg{
+            display: flex;
+            position: relative;
+            border-radius: 50%;
+            width: 280px;
+            height: 350px;
+            overflow: hidden;
+          }
+            .mainimg img{
+              width: 100%;height: 100%;
+              object-fit: contain;
+            }
+                        .button_main {
+                          margin-top: 0;
+                          position: relative;
+                        }
+          
+          .anm {
+              height: 100%;
+              width: 100%;
+              position: fixed;
+            }
+                        .Etext{
+                          display: none;
+                        }
+                        .line1{
+                          display: none;
+                        }
+                        .line2{
+                          display: none;
+                        }
+        }
+
 
 #stars {
   width: 1px;

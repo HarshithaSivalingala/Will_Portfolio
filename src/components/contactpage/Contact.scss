@@ -13,10 +13,13 @@
     text-decoration-color:#484848;
   }
   
-.left{
-  width:80%;
+.contact_left{
+  width:50%;
   margin-top: 20px;
   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4;
   flex-direction: column;
 
   h2{
@@ -91,11 +94,11 @@
    }
   
 }
- .right{
+ .contact_right{
    position: absolute;
    background-color: #000;
    top: 19vh;
-   right:38%;
+   right:37%;
    z-index:999999;
    width: 230px;
    padding:10px;
@@ -142,5 +145,31 @@
      display: none;
    }
    }
+  @media only screen and (max-width : 760px) {
+      .textzone {
+          position: fixed;
+          top: 0;left: 0;right: 0;bottom: 0;
+          height: 30%;
+        }
+      .contact_left {
+        position: relative;
+        height: 70%;width: 80%;
+      }
+      .contact_right{
+        position: relative;
+        margin: 20px;
+        left: 0;right: 0;bottom: 0;
+      }
+      .map_wrap{
+        display: none;
+      }
+     }
 }
+@media only screen and (max-width : 760px) {
+  .contact {
+    flex-direction: column-reverse;
+    display: flex;align-items: center;justify-content: center;
+  }
+}
+
 
