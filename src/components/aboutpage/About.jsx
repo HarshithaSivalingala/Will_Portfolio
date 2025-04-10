@@ -79,22 +79,21 @@ function About() {
                   ]}
                 />
               </div>
+              <div className="exp_dat">
+                  <div className="round"></div>
+                  <p>
+                    
+                  </p>
+                </div>
+              </div>
               <div className="exp_data">
                 <div className="exp_dat">
                   <div className="round"></div>
                   <p>
-                    Interned as a full stack developer for a period of 2 months
+                    Interned as a full stack developer and worked on real-time project for 6 months
                     in Study Owl Education Pvt Ltd.
                   </p>
-                </div>
-                <div className="exp_dat">
-                  <div className="round"></div>
-                  <p>
-                    Completed Google Cloud Program associated with qwiklabs and
-                    earned skill badges.
-                  </p>
-                </div>
-              </div>
+                </div> 
               <div className="abt_buttons">
                 <div className="s_button">
                   <Link to="/skills_n_qualifications">
